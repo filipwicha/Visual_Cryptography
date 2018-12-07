@@ -3,7 +3,7 @@ from PIL import Image
 import random
 import sys
 
-path = "C:\\Users\\50215\\Desktop"
+path = "C:\\Users\\50215\\Desktop" #change it to your folder with file in.bmp
 
 image = Image.open(path + "\\in.bmp")
 image = image.convert('1')
