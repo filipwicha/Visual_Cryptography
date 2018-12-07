@@ -8,7 +8,7 @@ path = "C:\\Users\\50215\\Desktop" #change it to your folder with file in.bmp
 image = Image.open(path + "\\in.bmp")
 image = image.convert('1')
 
-width, height = image.size
+width, height = image.size 
 outfile1 = Image.new("1", (width*2, height*2), "white")
 
 outfile2 = Image.new("1", (width*2, height*2), "white")
